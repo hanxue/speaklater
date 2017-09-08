@@ -21,13 +21,13 @@ def get_docs():
     return '\n'.join(result)
 
 setup(
-    name='speaklater',
-    author='Armin Ronacher',
-    author_email='armin.ronacher@active-4.com',
+    name='speaklater3',
+    author='Armin Ronacher, Thomas Waldmann',
+    author_email='armin.ronacher@active-4.com, tw@waldmann-edv.de',
     version='1.4',
-    url='http://github.com/mitsuhiko/speaklater',
+    url='https://github.com/ThomasWaldmann/speaklater',
     py_modules=['speaklater'],
-    description='implements a lazy string for python useful for use with gettext',
+    description='Implements a lazy string for python useful for use with gettext. This version is compatible with Python 3',
     long_description=get_docs(),
     zip_safe=False,
     classifiers=[
